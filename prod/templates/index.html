@@ -1,0 +1,23 @@
+<!-- For flask you must use url_for to get access to content in the static folder -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>react-window-app</title>
+    <script
+      type="module"
+      crossorigin
+      src="{{ url_for('static', filename='assets/index-2bPKCb8Z.js') }}"
+    ></script>
+    <link
+      rel="stylesheet"
+      crossorigin
+      href="{{ url_for('static', filename='assets/index-DGkJwp9W.css') }}"
+    />
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
