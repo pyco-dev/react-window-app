@@ -1,7 +1,7 @@
 # react-window-app
 ## by pyco-dev
 
-# required modules
+## required modules
 
 ### required node modules
 - Vite Latest
@@ -17,5 +17,5 @@
 - contains compiled react page
 - contains python code to create GUI and display react page
 
-## dev folder
+### dev folder
 - contains react page source code
